@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-09-05",
+  "orders": [
+    {
+      "order_id": "ord_1042",
+      "customer_id": "cus_88",
+      "checkout": {
+        "checkout_id": "chk_1042",
+        "paid_at": "2026-09-05T10:15:00Z",
+        "total": "48.00",
+        "currency": "USD"
+      },
+      "fulfillment": {
+        "status": "shipped",
+        "carrier": "Parcel Post",
+        "tracking_number": "PP1042"
+      },
+      "receipt": {
+        "receipt_id": "rcpt_1042",
+        "issued_at": "2026-09-05T10:16:00Z"
+      },
+      "customer_updates": [
+        {
+          "occurred_at": "2026-09-05T16:40:00Z",
+          "message": "Your order has shipped."
+        }
+      ]
+    }
+  ]
+}

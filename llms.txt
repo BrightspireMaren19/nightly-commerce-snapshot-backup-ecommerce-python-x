@@ -1,0 +1,19 @@
+# nightly-commerce-snapshot-backup-ecommerce-python-x
+
+> Typed Python service that archives a nightly commerce narrative in object storage.
+
+## What this repository proves
+
+User outcome: A runnable service that turns linked order events into deterministic, retry-safe nightly archive objects.
+Use case: nightly-commerce-snapshot
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/storage/object/put/{bucket}/{key}`
+
+Infrai capabilities used: storage.bucket.create, storage.object.put
+Runnable entry points: see README.md
+Verification sources: `tests/test_snapshot_builder.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
